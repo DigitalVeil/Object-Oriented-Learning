@@ -1,0 +1,27 @@
+function sequentialSizes(val) {
+  let answer = "";
+  // Only change code below this line
+  switch(val){
+    case 1: "Low"
+    case 2: "Low"
+    case 3: "Low"
+      answer = "Low";
+      break;
+    case 4: "Mid"
+    case 5: "Mid"
+    case 6: "Mid"
+      answer = "Mid";
+      break;
+    case 7: "High"
+    case 8: "High"
+    case 9: "High"
+      answer = "High";
+      break;
+  }
+
+
+  // Only change code above this line
+  return answer;
+}
+
+sequentialSizes(1);
